@@ -4,9 +4,3 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  gap: .5rem;
-}

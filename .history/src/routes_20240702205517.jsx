@@ -13,8 +13,8 @@ export function AppRoutes() {
       <Header />
       <Container>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/favoritos" element={<Favoritos />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/favoritos" element={<Favoritos />} />
         </Routes>
       </Container>
       <Footer />
