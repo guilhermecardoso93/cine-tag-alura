@@ -2,7 +2,6 @@
   padding: 0 0 1em 0;
   margin-top: .5em;
   width: 282px;
-  min-width: 182px;
   background-color: var(--cinza);
   display: flex;
   flex-direction: column;
@@ -13,6 +12,7 @@
 
 .capa {
   width: 100%;
+  min-width: 3rem;;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   min-height: 20rem;
@@ -26,10 +26,4 @@
 
 .favoritar {
   width: 25px;
-}
-
-.link {
-  text-decoration: none;
-  color: var(--preto);
-  text-align: left;
 }

@@ -8,8 +8,7 @@ import styles from "./styles.module.css";
 
 export function Home() {
   const [videos, setVideos] = useState([]);
-  const api =
-    "https://my-json-server.typicode.com/guilhermecardoso93/cinetag-api/videos";
+  const api ="https://my-json-server.typicode.com/guilhermecardoso93/cinetag-api/videos";
 
   useEffect(() => {
     fetch(api)

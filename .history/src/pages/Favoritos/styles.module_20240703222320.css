@@ -1,8 +1,6 @@
-.container {
+.container section {
   margin: 2em 20em;
   text-align: center;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
 }

@@ -7,12 +7,12 @@ import { Card } from "../../components/Card";
 import styles from "./styles.module.css";
 
 export function Home() {
-  const [videos, setVideos] = useState([]);
-  const api =
-    "https://my-json-server.typicode.com/guilhermecardoso93/cinetag-api/videos";
+  const [videos, setVideos] = useStatetate([]);
 
   useEffect(() => {
-    fetch(api)
+    fetch(
+      "https://my-json-server.typicode.com/monicahillman/cinetag-api/videos"
+    )
       .then((resposta) => resposta.json())
       .then((dados) => {
         setVideos(dados);

@@ -11,10 +11,10 @@ export function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<PaginaBase />}>
-          <Route index element={<Home />} />
-          <Route path="favoritos" element={<Favoritos />} />
-          <Route path=":id" element={<Player />} />
-          <Route path="*" element={<NaoEncontrada />} />
+          <Route index element={<Home />}></Route>
+          <Route path="favoritos" element={<Favoritos />}></Route>
+          <Route path=":id" element={<Player />}></Route>
+          <Route path="*" element={<NaoEncontrada />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

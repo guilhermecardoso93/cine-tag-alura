@@ -1,5 +1,4 @@
 import { useFavoritoContext } from "../../contexto/favoritos";
-
 import { Banner } from "../../components/Banner";
 import { Card } from "../../components/Card";
 import { Titulo } from "../../components/Titulo";

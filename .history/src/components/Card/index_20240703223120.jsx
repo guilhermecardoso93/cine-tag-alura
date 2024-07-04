@@ -1,5 +1,4 @@
 import { useFavoritoContext } from "../../contexto/favoritos";
-import { Link } from "react-router-dom";
 
 import iconeFavoritar from "./favotirar.png";
 import iconeDesfavoritar from "./desfavotirar.png";

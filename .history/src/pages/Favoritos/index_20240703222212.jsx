@@ -1,5 +1,4 @@
 import { useFavoritoContext } from "../../contexto/favoritos";
-
 import { Banner } from "../../components/Banner";
 import { Card } from "../../components/Card";
 import { Titulo } from "../../components/Titulo";
@@ -7,7 +6,7 @@ import { Titulo } from "../../components/Titulo";
 import styles from "./styles.module.css";
 
 export function Favoritos() {
-  const { favorito } = useFavoritoContext();
+  const { favorito } = useFavoritoContextt();
   return (
     <>
       <Banner imagem="favoritos" />
